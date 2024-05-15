@@ -1,0 +1,64 @@
+
+.justify-content-center {
+    justify-content: center !important;}
+
+.padding1{
+ padding: 2%;   
+}
+.margin1{
+    margin:4%;
+}
+.background1{
+    background-color: rgba(170, 127, 127, 0.286);
+}
+.carousel-item{
+    width: 140% !important;
+}
+
+.card:hover {
+
+    box-shadow: 0px 0 7px 2px rgba(128, 128, 128, 0.5);
+    
+}
+.background-grad-footer{
+
+    background:linear-gradient(to top, rgb(66, 66, 66), rgb(192, 192, 192));
+}
+.background-grad-header{
+
+    background:linear-gradient(to bottom, rgb(66, 66, 66), rgb(192, 192, 192));
+}
+.carousel-item img{
+    max-height: 450px;
+
+}
+
+.navbar-brand img{
+    max-width:200px ;
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(248, 198, 0) !important;
+}
+.navbar-nav .nav-link{
+    color: rgb(253,221,94) !important; 
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(255, 210, 31) !important; 
+}
+
+/* Set the border color */
+         
+.custom-toggler.navbar-toggler {
+    border-color: rgb(253,221,94);
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+ 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253, 221, 94, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.bi{
+  fill: rgb(253,221,94);
+}
