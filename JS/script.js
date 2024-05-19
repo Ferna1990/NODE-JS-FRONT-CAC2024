@@ -2,6 +2,7 @@ const cajaOferta = document.getElementById("oferta")
 const imgBomba = document.getElementById("bomba")
 const imgExplosion = document.getElementById("explosion")
 
+
 cajaOferta.addEventListener("mouseover",function (){
    
     //alert("alalalalala");

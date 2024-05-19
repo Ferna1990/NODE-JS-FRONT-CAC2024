@@ -9,7 +9,7 @@
     margin:4%;
 }
 .background1{
-    background-color: rgb(226, 226, 226);
+    background-color: rgba(226, 226, 226, 0.705) ;
 }
 .carousel-item{
     width: 140% !important;
@@ -48,9 +48,6 @@
     font-weight: bold;
     
 }
-
-    
-
 
 .navbar-brand img{
     max-width:200px ;
@@ -102,8 +99,8 @@
     width: 85% !important;
 }
 .fondo1{
-    background-color: rgb(226, 226, 226) !important;
+    background-color: rgba(226, 226, 226, 0.705) !important;
 }
 .oferta{
-    background-color: rgb(226, 226, 226) !important;
+    background-color: rgba(226, 226, 226, 0.705) !important;
 }
