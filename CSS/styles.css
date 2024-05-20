@@ -108,3 +108,7 @@
     margin-bottom: 2%;
 
 }
+.footer1 {
+    position: absolute !important;
+    bottom: 0 !important;
+  }
