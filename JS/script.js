@@ -1,6 +1,48 @@
 const cajaOferta = document.getElementById("oferta")
 const imgBomba = document.getElementById("bomba")
 const imgExplosion = document.getElementById("explosion")
+const btnNos = document.getElementById("nosotros")
+const nosTxt = document.getElementById("nosotrostxt")
+const principal = document.getElementById("principal")
+const btnNuestras = document.getElementById("nuestras")
+
+function verPrincipal(){
+    nosTxt.classList.add("d-none")
+    principal.classList.remove("d-none")
+}
+
+function verNosotros(){
+    nosTxt.classList.remove("d-none")
+    principal.classList.add("d-none")
+}
+
+const botonesNav = document.getElementsByClassName("navbar-nav")
+
+for (let boton of botonesNav ){
+
+   const links = boton.getElementsByClassName("nav-link")
+          
+         for (let link of links){
+            
+            
+           if (link.getAttribute("href") == "#nosotrostxt") {
+                link.addEventListener("click", function() {
+                    verNosotros()
+                })
+           }
+           else{
+                link.addEventListener("click", function() {
+                      verPrincipal()
+                })
+
+           }
+
+
+         }
+  
+
+
+}
 
 
 cajaOferta.addEventListener("mouseover",function (){
